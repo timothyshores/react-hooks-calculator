@@ -4,7 +4,7 @@ const OperatorButton = ({ char, value }) => {
 	const clickHandler = () => console.log(`char ${char}, value ${value}`);
 	return (
 		<div>
-			<button value={value} onClick={clickHandler}>
+			<button className="operator-button" value={value} onClick={clickHandler}>
 				{char}
 			</button>
 		</div>

@@ -51,6 +51,7 @@
 	justify-content: center;
 	margin: 20px;
 	padding: 5px;
+	margin-top: 10px;
 }
 
 button {
@@ -60,6 +61,24 @@ button {
 	font-size: 2rem;
 	font-weight: bold;
 	border-radius: 50%;
+	color: white;
+	border: none;
+	height: 65px;
+	/* -moz-box-shadow: 3px 3px 5px 6px #000;
+	-webkit-box-shadow: 3px 3px 5px 6px #000; */
+	box-shadow: 2px 3px 4px 2px #333;
+}
+
+.special-button {
+	background-color: #0b5d9b;
+}
+
+.number-button {
+	background-color: #094377;
+}
+
+.operator-button {
+	background-color: #007291;
 }
 
 #zero {

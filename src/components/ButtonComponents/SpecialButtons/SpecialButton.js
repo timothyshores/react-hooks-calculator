@@ -4,7 +4,9 @@ const SpecialButton = ({ special }) => {
 	const clickHandler = () => console.log(special);
 	return (
 		<>
-			<button onClick={clickHandler}>{special}</button>
+			<button className="special-button" onClick={clickHandler}>
+				{special}
+			</button>
 		</>
 	);
 };
