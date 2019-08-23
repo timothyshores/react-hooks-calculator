@@ -25,9 +25,8 @@ const Numbers = () => {
 				))}
 			</div>
 			<div>
-				{numbers.slice(9).map(number => (
-					<NumberButton number={number} key={number} />
-				))}
+				<NumberButton id="zero" number={numbers[9]} key={numbers[9]} />
+				<NumberButton number={numbers[10]} key={numbers[10]} />
 			</div>
 		</>
 	);

@@ -1,10 +1,12 @@
 import React from "react";
 
-const NumberButton = ({ number }) => {
+const NumberButton = ({ number, id }) => {
 	const clickHandler = () => console.log(number);
 	return (
 		<>
-			<button onClick={clickHandler}>{number}</button>
+			<button id={id} onClick={clickHandler}>
+				{number}
+			</button>
 		</>
 	);
 };

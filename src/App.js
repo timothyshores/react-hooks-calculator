@@ -21,8 +21,8 @@ function App() {
 
 	return (
 		<div className="container">
-			<Logo />
-			<div className="App">
+			<div className="calculator">
+				<Logo />
 				<Display />
 				<div className="buttons">
 					<div className="buttons-left">
